@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="text-center">
+
+                <h1>Friend Finder</h1>
+                <h2>Let's find your best friend match!</h2>
+                <br>
+
+                <a href="/tables">
+                    <button type="button" class="btn btn-default">View Tables</button>
+                </a>
+                <a href="/">
+                    <button type="button" class="btn btn-default">Home</button>
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="container">
+            <div class="questions">
+                <h2>Answer these questions to help match you to your best friend!
+                </h2>
+                <h4>Rate Each Question Between 1 and 5 with 1 Being the Lowest and 5 the Highest</h4>
+            </div>
+            <div class="col-md-6">
+                <h1>Hello</h1>
+                <div class="panel-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="">1. How Important is Comedy in a Friendship?</label>
+                                <input type="text" class="form-control" id="one">
+                                <br>
+                                <label for="">2. How would you rate your interest in Science?</label>
+                                <input type="text" class="form-control" id="two">
+                                <br>
+                                <label for="">3. What is your interest in Music?</label>
+                                <input type="text" class="form-control" id="three">
+                                <br>
+                                <label for="">Unique ID</label>
+                                <input type="text" class="form-control" id="id">
+                            </div>
+                            <button type="submit" class="btn btn-default submit">Submit</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <h1>Hello</h1>
+                <div class="panel-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control" id="name">
+
+                                <label for="">Phone Number</label>
+                                <input type="text" class="form-control" id="number">
+
+                                <label for="">Email</label>
+                                <input type="text" class="form-control" id="email">
+
+                                <label for="">Unique ID</label>
+                                <input type="text" class="form-control" id="id">
+                            </div>
+                            <button type="submit" class="btn btn-default submit">Submit</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+</body>
+
+<style>
+    body {
+        background-color: #0b8ecf;
+    }
+
+    .jumbotron {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: lightgrey;
+    }
+
+    .questions {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+</style>
+
+</html>
